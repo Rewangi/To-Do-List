@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+.todobox{
+    padding-top: 60px;
+    background-color: gray;
+    width: 23%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top : 50px;
+}
+.ico{
+    margin-left: 95px;
+}
+.cutoff{
+    color: red;
+    text-decoration: line-through;
+}
