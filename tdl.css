@@ -1,18 +1,54 @@
-*{
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+* {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
-.todobox{
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url("back2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+input[type="text"] {
+    padding: 8px;
+    display: block;
+    width: 100%;
+}
+
+input :active {
+    width: 1%;
+}
+
+.todobox {
+    position: relative;
     padding-top: 60px;
-    background-color: gray;
-    width: 23%;
-    height: 400px;
-    margin: 0 auto;
-    margin-top : 50px;
+    display: block;
+    width: 30%;
+    padding: 24px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 52px auto;
+    border-radius: 12px;
 }
-.ico{
+
+.ico {
     margin-left: 95px;
 }
-.cutoff{
+
+.cutoff {
     color: red;
     text-decoration: line-through;
+}
+
+ul li {
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 1.1em;
+    padding-top: 4px;
+    text-transform: capitalize;
 }
