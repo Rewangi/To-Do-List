@@ -1,0 +1,38 @@
+body {
+	width: 700px;
+	margin: 30px auto ;	
+	font-family: sans-serif;
+	font-family: Impact;
+}
+img {
+	float: left;
+	margin-right: 30px;
+}
+article h2 {
+	font-size: 39px;
+	line-height: 43px;
+}
+.format {
+	float: right;
+
+	width: 470px;
+}
+a {
+	color:#276056;
+
+}
+
+.meta a {
+
+	font-style: italic;
+	font-size: 14px;
+
+}
+.meta li {
+	display: inline;
+
+} 
+.meta li : after {
+	content: '\\'
+	padding:0 5px;
+}
